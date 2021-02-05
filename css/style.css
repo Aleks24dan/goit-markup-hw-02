@@ -1,0 +1,230 @@
+/**************************** comon *****************/
+:root {
+  --logo-color: #000000;
+  --brand-color: #3f51b5;
+  --backgound-navigation: #ffffff;
+  --backgound-hero: #2f303a;
+  --background-section: #e5e5e5;
+  --background-team: #f5f4fa;
+  --color-h1: #ffffff;
+  --color-h: #212121;
+  --color-logo: #2196f3;
+  --color-link-contact: #757575;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+body {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3 {
+  color: var(--color-h);
+}
+ul {
+  list-style: none;
+}
+
+/************** navigation ******************/
+
+.logo {
+  color: var(--logo-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.logo-span {
+  color: var(--brand-color);
+}
+
+.navigation-main a:focus {
+  color: #2196f3;
+}
+.footer-address a:hover,
+.navigaton-list-item a:hover,
+.list-contact a:hover {
+  color: var(--color-logo);
+}
+
+.navigaton-list-item a {
+  color: var(--color-h);
+}
+
+.list-contact a {
+  color: var(--color-link-contact);
+}
+
+.navigaton-list-item,
+.list-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/***************** hero *****************/
+
+.hero {
+  width: 1600px;
+  height: 600px;
+  background-color: var(--backgound-hero);
+}
+
+.hero-title,
+.hero-btn {
+  color: var(--color-h1);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/************************************** advantages *********************/
+
+.advantages .about {
+  background-color: var(--background-section);
+}
+
+.advantages-tittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-text {
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/************************ our team ***********************/
+
+.team {
+  background-color: var(--background-team);
+  letter-spacing: 0.03em;
+  line-height: 19px;
+}
+.team-tittle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.team-item-tittle {
+  font-weight: 500;
+}
+
+.team-item-text {
+  font-size: 16px;
+}
+/*********************** footer ******************************/
+
+footer {
+  height: 252px;
+  background-color: var(--backgound-hero);
+}
+
+.logo-footer {
+  color: var(--color-h1);
+}
+
+.footer-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--backgound-navigation);
+}
+
+.footer-address a {
+  color: var(--footer-contacts);
+}
+
+/********************************************************* portfolio-page******************************************************************/
+
+.portfolio {
+  background-color: var(--backgound-navigation);
+}
+
+.portfolio-btn:hover {
+  background-color: var(--color-logo);
+}
+
+.portfolio-btn:hover {
+  color: var(--backgound-navigation);
+}
+
+.portfolio-btn:focus {
+  color: var(--backgound-navigation);
+  background-color: var(--color-logo);
+  outline: none;
+}
+
+.portfolio-btn {
+  color: var(--color-h);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/************** galery ***********************/
+
+.galery {
+  background-color: var(--background-section);
+}
+
+.galery-item-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.galery-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
